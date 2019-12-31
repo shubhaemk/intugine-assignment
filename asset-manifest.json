@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "intugine-assignment/static/css/main.4d71124f.chunk.css",
+    "main.js": "intugine-assignment/static/js/main.5eda46b6.chunk.js",
+    "main.js.map": "intugine-assignment/static/js/main.5eda46b6.chunk.js.map",
+    "runtime-main.js": "intugine-assignment/static/js/runtime-main.8115be48.js",
+    "runtime-main.js.map": "intugine-assignment/static/js/runtime-main.8115be48.js.map",
+    "static/js/2.e208e352.chunk.js": "intugine-assignment/static/js/2.e208e352.chunk.js",
+    "static/js/2.e208e352.chunk.js.map": "intugine-assignment/static/js/2.e208e352.chunk.js.map",
+    "index.html": "intugine-assignment/index.html",
+    "precache-manifest.8c71e449c39acadcf510d8ecf9f505d2.js": "intugine-assignment/precache-manifest.8c71e449c39acadcf510d8ecf9f505d2.js",
+    "service-worker.js": "intugine-assignment/service-worker.js",
+    "static/css/main.4d71124f.chunk.css.map": "intugine-assignment/static/css/main.4d71124f.chunk.css.map",
+    "static/js/2.e208e352.chunk.js.LICENSE": "intugine-assignment/static/js/2.e208e352.chunk.js.LICENSE",
+    "static/media/destination.svg": "intugine-assignment/static/media/destination.85f9fdcc.svg",
+    "static/media/logo.svg": "intugine-assignment/static/media/logo.877653ae.svg",
+    "static/media/warehouse.svg": "intugine-assignment/static/media/warehouse.1f5bfd3e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8115be48.js",
+    "static/js/2.e208e352.chunk.js",
+    "static/css/main.4d71124f.chunk.css",
+    "static/js/main.5eda46b6.chunk.js"
+  ]
+}
