@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "748f30673a522c31fb4eb7c31e446bf0",
+    "revision": "356134858cf2e5a4db7560f8d8e1768e",
     "url": "/intugine-assignment/index.html"
   },
   {
-    "revision": "01ce58267073d79359ee",
-    "url": "/intugine-assignment/static/css/main.4d71124f.chunk.css"
+    "revision": "22e45fd651072f8a4213",
+    "url": "/intugine-assignment/static/css/main.136b4990.chunk.css"
   },
   {
     "revision": "4bf789e666a2ea3df3d8",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/intugine-assignment/static/js/2.e208e352.chunk.js.LICENSE"
   },
   {
-    "revision": "01ce58267073d79359ee",
-    "url": "/intugine-assignment/static/js/main.98bdedd7.chunk.js"
+    "revision": "22e45fd651072f8a4213",
+    "url": "/intugine-assignment/static/js/main.6cc25527.chunk.js"
   },
   {
     "revision": "3c62fc72a8737e6c7064",

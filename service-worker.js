@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/intugine-assignment/precache-manifest.61fc8926ded0c8fe75582ce5f58d144e.js"
+  "/intugine-assignment/precache-manifest.bfdb6a9af1dab88f09e2f79eafcf32e0.js"
 );
 
 self.addEventListener('message', (event) => {
