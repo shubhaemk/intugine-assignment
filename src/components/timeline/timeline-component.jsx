@@ -23,6 +23,8 @@ const Timeline = ({currentTimeline}) => {
                             if(item.status_detail === 'DELIVERED'){
                                 return (
                                     <div key={item.time} className="timeline-state__status status-active">
+                                        <span className="timeline-state__status--dash"/>
+                                        <span className="timeline-state__status--circle"/>
                                         <p className="timeline-status__status--name">Delivered</p>
                                         <p className="time-status__status--time">
                                             <span className="margin-right-one">{`${(new Date(item.time)).getDate()}-${(new Date(item.time)).getMonth()}-${(new Date(item.time)).getFullYear()}`}</span>
@@ -42,6 +44,8 @@ const Timeline = ({currentTimeline}) => {
                             if(item.status_detail !== 'DELIVERED'){
                                 return (
                                     <div key={item.time} className="timeline-state__status">
+                                        <span className="timeline-state__status--dash"/>
+                                        <span className="timeline-state__status--circle"/>
                                         <p className="timeline-status__status--name">{item.status_detail}</p>
                                         <p className="time-status__status--time">
                                             <span className="margin-right-one">{`${(new Date(item.time)).getDate()}-${(new Date(item.time)).getMonth()}-${(new Date(item.time)).getFullYear()}`}</span>

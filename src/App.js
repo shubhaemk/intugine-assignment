@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Home from './pages/home/home.component';
 import "../src/styles/main.scss";
 
 function App() {
   return (
-    <div className="app">
+    <Fragment>
         <Home/>
-    </div>
+    </Fragment>
   );
 }
 

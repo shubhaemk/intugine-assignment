@@ -1,4 +1,4 @@
-export const getCounter = data => (
+export const getSortedData = data => (
     new Promise((resolve,reject) => {
         if(data.length){
             const delData = data.filter( item => item.current_status_code === 'DEL');

@@ -4,7 +4,7 @@ import Counter from '../../components/counter/counter-component';
 import Timeline from '../../components/timeline/timeline-component';
 import Shipment from '../../components/shipment/shipment-component';
 import WebService from '../../services/webService';
-import { getCounter } from '../../services/sortServices';
+import { getSortedData } from '../../services/sortServices';
 
 
 class Home extends React.Component{
@@ -27,7 +27,7 @@ class Home extends React.Component{
     componentDidMount = () => {
         WebService.post("https://93870v1pgk.execute-api.ap-south-1.amazonaws.com/latest/shipments/mayank")
         .then(response => {
-            return getCounter(response);
+            return getSortedData(response);
         })
         .then( data => {
             const {
