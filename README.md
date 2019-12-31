@@ -4,18 +4,10 @@ Using React, SCSS
 
 ## To Run the App
 
-```
-    git clone https://github.com/shubhaemk/intugine-assignment.git
-```
+```git clone https://github.com/shubhaemk/intugine-assignment.git```
 
-```
-    cd intugine-assignment
-```
+```cd intugine-assignment```
 
-```
-    npm install
-```
+```npm install```
 
-```
-    npm start
-```
+```npm start```
