@@ -1,0 +1,49 @@
+.shipments {
+
+  width: 60%;
+  &__table,
+  &__content .package {
+    border: 1px solid #eee;
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+
+  &__table {
+    border: 1px solid $secondary;
+    width: 100%;
+
+    ul {
+      li {
+        font-size: 10px;
+        color: #bbb;
+        width: 3rem;
+      }
+    }
+  }
+
+  &__content {
+    height: 68vh;
+    overflow: auto;
+    .package {
+      cursor: pointer;
+      font-size: 12px;
+      color: #333;
+      font-weight: 300;
+      margin: 0 10px 10px 10px;
+      height: 5rem;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      li {
+        text-align: center;
+        font-size: 12px;
+        color: inherit;
+        padding: 1rem;
+        width: 3rem;  
+      }
+    }
+  }
+}

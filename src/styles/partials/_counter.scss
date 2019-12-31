@@ -1,0 +1,31 @@
+
+
+
+.counter {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    .counter-box {
+      margin: 0 0.5rem;
+      height: 6rem;
+      width: 6rem;
+      border-radius: 4px;
+      background: $secondary;
+      color: $primary;
+      cursor: pointer;
+      
+      &__text {
+        margin: 5px;
+      }
+      &__count {
+        font-size: 2rem;
+        font-weight: 500;
+        font-family: "Kulim Park", sans-serif;
+        text-align: center;
+      }
+      &--active {
+        background: $primary;
+        color: #fff;
+      }
+    }
+  }

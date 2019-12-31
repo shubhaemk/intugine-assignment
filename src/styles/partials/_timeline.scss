@@ -1,0 +1,83 @@
+.timeline {
+    border: 1px solid #ddd;
+    display: flex;
+    width: 30%;
+    height: 65vh;
+    padding: .5rem 2rem;
+    overflow-y: auto;
+    &-none{
+      border: 0px;
+    }
+
+    &-tracker {
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+
+      &-icon{
+        height: 1rem;
+        width: 1rem;
+      }
+
+
+      &-container{
+        width: 2rem;
+        height: 2rem;
+        background-color: $secondary;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      hr {
+        height: 80%;
+      }
+    }
+  
+    &-state {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+      overflow-y: auto; 
+      width: 80%;
+
+      &-line{
+        height: .5rem;
+        width: 20%;
+      }
+
+      &>*{
+        margin-bottom: 1rem;
+      }
+      &__status {
+        display: flex;
+        border: 1px solid #ddd;
+        font-size: 10px;
+        justify-content: space-around;
+        color: #aaa;
+        &--time{
+          display: flex;
+          justify-content: space-between;
+          &>*{
+            margin-right: 1rem;
+          }
+        }
+      }
+      .status-active {
+        color: $green;
+        background: #f7f8ff;
+      }
+    }
+  }
+
+  .margin{
+    &-right{
+      &-one{
+        margin-right: 1rem;
+      }
+    }
+  }
